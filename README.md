@@ -28,5 +28,3 @@ Core-плагин для Paper 1.16.5 (Очень полезно для Box-PvP)
 git clone https://github.com/ВАШ_НИК/mdCore.git
 cd mdCore
 mvn clean package
-Создатель
-t.me/javacrime
