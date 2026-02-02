@@ -1,0 +1,123 @@
+#                     :+*=:.
+#                  :=*@@@@@@@#
+#               :%@@@@@@@@@@@@=
+#              -@@@@@@@@@@@@@@%
+#             .#@@%+*#%@@@@@@@@:
+#             :@@@:    =::=%@@+
+#             :@@-         -@@:
+#              %@=          =@-
+#             .%%+@@%@-+@@##=:
+#              =%:     =   :=.            developed by mindamagov
+#               =@=  @+-=  :                (t.me/javacrime)
+#                *+   @*   .:
+#                 @%@@@%=:#@-                any questions?
+#                =@@@- .-@@*=-           write to me on telegram
+#              :%*@@@@@@@@+ .-:
+#           =#@@@+ @@@@@@:  .  *+==:
+#      .+%@@@@@@@* .@@@-     =@@-:..
+#    +@@@@@@@@@@@*:@@@@=    :@@*::.
+#   =@@@@@@@@@@@@%. *@@=:==  @@@ .--
+#   *@@@@@@@@@@@@%   @@:     -*
+#   %@@@@@@@@@@@@%.   @:
+# :@@@@@@@@@@@@@@:  *@:
+
+
+kill-message:
+  enabled: true
+  format: "&c🗡 &f%killer% убил &f%victim% &c☠️"
+anti-ads:
+  enabled: true
+  error: '&cmindamagov.lol §fВаше сообщение было заблокировано.'
+  whitelist-players:
+    - "mindamagov"
+  blockwords:
+    - "ru"
+    - ".ru"
+    - "r!u"
+    - "r.u"
+    - "ru!"
+    - "play"
+    - ".play"
+    - "p!lay"
+    - "pl!ay"
+    - "pla!y"
+    - "play!"
+    - "core"
+    - ".core"
+    - "c.ore"
+    - "co.re"
+    - "cor.e"
+    - "core."
+    - "!core"
+    - "c!ore"
+    - "cor!e"
+    - "xyz"
+    - ".xyz"
+    - "x.yz"
+    - "x!yz"
+    - "!xyz"
+    - "xy!z"
+    - "mc"
+    - ".mc"
+    - "m!c"
+    - "m.c"
+    - "net"
+    - ".net"
+    - "n!et"
+    - "ne!t"
+join-text:
+  enabled: true
+  lines:
+    - ''
+    - ' &cmindamagov.lol'
+    - ' §fДобро пожаловать на сервер!'
+    - ''
+block-place:
+  enabled: true
+  send-message: true
+  message: '&cmindamagov.lol &fВы не можете &cставить&f данный &cблок!'
+  whitelist-players:
+    - "mindamagov"
+  whitelist-worlds:
+    - world
+  blacklist-worlds:
+    - afk
+  blocks-whitelist:
+    - COBWEB
+    - ORANGE_CONCRETE
+    - RED_CONCRETE_POWDER
+block-break:
+  enabled: true
+  send-message: true
+  message: '&cmindamagov.lol &fВы не можете &cсломать&f данный &cблок!'
+  whitelist-players:
+    - "mindamagov"
+  whitelist-worlds:
+    - world
+  blacklist-worlds:
+    - afk
+  blocks-whitelist:
+    - DIAMOND_ORE
+    - DIAMOND_BLOCK
+    - EMERALD_ORE
+    - EMERALD_BLOCK
+    - ORANGE_GLAZED_TERRACOTTA
+    - BLUE_GLAZED_TERRACOTTA
+    - LIME_GLAZED_TERRACOTTA
+    - PINK_GLAZED_TERRACOTTA
+    - YELLOW_GLAZED_TERRACOTTA
+    - BROWN_GLAZED_TERRACOTTA
+map-cleaner:
+  enabled: true
+  blocks:
+    - OAK_WOOD
+    - COBWEB
+    - GLASS
+    - WHITE_WOOL
+  whitelist-players:
+    - "mindamagov"
+  whitelist-worlds:
+    - world
+  time-to-clear: 1 # время указывается в секундах
+  send-message-on-remove: true
+  remove-message: '&cmindamagov.lol &fВаш блок исчез'
